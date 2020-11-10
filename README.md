@@ -14,7 +14,7 @@ for x in each(3, 7):
         continue
 
     print(x.val)
-### Output:
+# Output:
 # 0
 # 1
 # 4
