@@ -9,14 +9,14 @@ Use the `each` functon to construct a very interactive *for* and *foreach*, givi
 
 ```python
 for x in each(3, 7):
-    if (x.val == 2):
-        x.key += 1
-        continue
+  # Skip the number 2
+  if (x.val == 2):
+    x.key += 1
+    continue
 
-    print(x.val)
+  print(x.val)
 ## Output:
-# 0
-# 1
+# 3
 # 4
 # 5
 # 6
