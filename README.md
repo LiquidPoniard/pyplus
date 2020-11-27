@@ -1,4 +1,4 @@
-# pyplus
+# PyPlus
 This is a in-development package for all those good things python lacks, like a classic `for` and `async`/`promise` from JS with those sweet sweet anonymous functions.  
 
 ### Instalation
@@ -14,7 +14,7 @@ for x in each(3, 7):
         continue
 
     print(x.val)
-# Output:
+## Output:
 # 0
 # 1
 # 4
